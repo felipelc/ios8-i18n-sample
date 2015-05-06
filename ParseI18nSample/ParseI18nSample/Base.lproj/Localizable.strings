@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ParseI18nSample
+
+  Created by Felipe Leal Coutinho on 06/05/15.
+  Copyright (c) 2015 Felipe Leal Coutinho. All rights reserved.
+*/
+"The email address is invalid. Please enter a valid email." = "EN invalid email";
+"Please enter a username." = "EN username blank";
+"Please enter a password." = "EN password blank";
+"Please enter an email." = "EN email blank";
