@@ -68,6 +68,7 @@
 		1E43B6E91AFA629E00E5D2E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1E43B6EB1AFA62A900E5D2E8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		1E43B6ED1AFA62B200E5D2E8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1E43B6F11AFA6B9800E5D2E8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +313,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1E43B6B31AFA612E00E5D2E8 /* Base */,
+				1E43B6F11AFA6B9800E5D2E8 /* pt */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

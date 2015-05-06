@@ -15,6 +15,12 @@ class ViewController: UIViewController, PFSignUpViewControllerDelegate {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
+        if PFUser.currentUser() == nil { // User is not logged in
+            presentSignUp()
+        }
+    }
+    
+    private func presentSignUp() {
         let signUpVC = PFSignUpViewController()
         signUpVC.delegate = self
         presentViewController(signUpVC, animated: true, completion: nil)
@@ -22,6 +28,11 @@ class ViewController: UIViewController, PFSignUpViewControllerDelegate {
     
     func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) {
         dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func logOut(sender: UIButton) {
+        PFUser.logOut()
+        presentSignUp()
     }
 }
 
